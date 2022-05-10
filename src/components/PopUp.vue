@@ -9,7 +9,7 @@
     </div>
 
     <div class="flex justify-center mt-4">
-      <button class="bg-sky-200 mx-auto p-4" @click="$emit('closePopUp')">Close</button>
+      <button class="bg-sky-200 mx-auto p-4" @click="$emit('closePopUp', 'Pop up message')">Close</button>
     </div>
 </template>
 
